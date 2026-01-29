@@ -1,5 +1,7 @@
 html {
     background-color: #000; 
+    overflow: hidden;
+    x-overflow: hidden;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
+    x-overflow: hidden;
     background-image: url("Images/background.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -213,4 +215,5 @@ h1 {
     top: -35px;
 
 }
+
 
