@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>@</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts/snowfall.js"></script>
+  <script defer src="scripts/typewriter.js"></script>
+  <script defer src="scripts/main.js"></script>
+  <link rel="icon" type="image/png" href="Images/favicon.png">
+</head>
+
+<body>
+  <main>
+    <div class="profile-card">
+      <div class="profile-header">
+        <img src="images/pfp.png" alt="pfp" class="profile-pic">
+        <h1 id="typewriter"></h1>
+        <p class="bio">Contact me here</p>
+      </div>
+
+      <div class="social-links">
+        <div class="button-row">
+          <a href="https://discord.com/users/430772757643395074" target="_blank" class="icon-link">
+            <img src="Images/App_icons/discord.png" alt="Discord" class="icon-img">
+          </a>
+
+          <a href="https://t.me/prominority" target="_blank" class="icon-link">
+            <img src="Images/App_icons/telegram.png" alt="Telegram" class="icon-img">
+          </a>
+
+          <a href="https://www.roblox.com/users/350167333/profile" target="_blank" class="icon-link">
+            <img src="Images/App_icons/roblox.png" alt="Roblox" class="icon-img">
+          </a>
+          </div>
+
+
+          <div class="crypto-container">
+            <div class="crypto-item" onclick="copyToClipboard('0xf2B0B24760b5645416EF4267281e9fEDF051cc75', this)">
+              <img src="Images/App_icons/ethereum.png" alt="ETH" class="crypto-icon">
+              <span class="crypto-label">ETH</span>
+              <span class="copy-status">Copied!</span>
+            </div>
+
+            <div class="crypto-item" onclick="copyToClipboard('LUNH8ERGyukJ8tcv5C3unUUR2f7WXoaxCi', this)">
+              <img src="Images/App_icons/litecoin.png" alt="ETH" class="crypto-icon">
+              <span class="crypto-label">LTC</span>
+              <span class="copy-status">Copied!</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="snow-canvas"></canvas>
+  </main>
+</body>
+</html>
